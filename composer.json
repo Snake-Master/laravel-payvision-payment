@@ -1,0 +1,25 @@
+{
+    "name": "waterfox/laravel-payvision-payment",
+    "description": "laravel版 payvision支付",
+    "authors": [
+        {
+            "name": "waterfox-wu",
+            "email": "huliwlq@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/Waterfox"
+        ],
+        "psr-0": {
+            "Waterfox\\LaravelPayvisionPayment\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "license": "MIT"
+}
